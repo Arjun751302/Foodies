@@ -1,0 +1,86 @@
+@media (max-widht:1024px){
+
+    /*about section*/
+
+}
+
+@media (max-widht:991px){
+
+    /*Custom Classes*/
+    .text-content{
+        width: 100%;
+    }
+
+    /*Navbar Design*/
+    @media (max-width: 991.98px) {
+        .navbar-collapse {
+            text-align: center;
+          }
+          .navbar-nav {
+            width: 100%;
+          }
+          .nav-item {
+            display: inline-block;
+          }
+          .nav-link {
+            padding: 0.5rem 1rem;
+          }
+
+    /*Banner Design*/
+    .top-banner{
+        padding: 9.375rem 0 9.375rem;
+    }
+
+    /*Carousel Design*/
+
+}
+}
+
+@media (max-widht:767px){
+
+    /*Custom Classes*/
+    h1{
+        font-size: 2.8rem;
+    }
+    h2{
+        font-size: 2rem !important;
+        line-height: 2.0625rem;
+    }
+    /*Story Section*/
+    .story-section {
+        padding: 20px 0; /* Reduce padding on mobile */
+      }
+      .text-content {
+        max-width: 100%; /* Full width on mobile */
+        padding: 0 15px; /* Add side padding */
+      }
+      .col-sm-12 .text-content h2 {
+        font-size: 24px; /* Smaller heading on mobile */
+      }
+      .row.no-gutters {
+        margin-left: 0;
+        margin-right: 0;
+      }
+      .col-sm-12 {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    /*Top Banner*/
+    .top-banner{
+        padding: 10.875rem 0 10.875rem;
+    }
+    /*Story Section*/
+
+    /*Carousel Design*/
+
+    /*Newsletter*/
+
+    /*Footer Link*/
+
+}
+
+@media (max-widht:360px){
+
+    /*Carousel Design*/
+
+}

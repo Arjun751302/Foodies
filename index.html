@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodies</title>
+    <!--Bootstrap CDN Link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Own CSS Link-->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/resposive-style.css">
+</head>
+<body>
+    <!--header design-->
+
+    <header>
+
+      <nav class="navbar navbar-expand-lg navigation-wrap">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="images/logo.png" alt="img-fluid"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <!-- Navigation Menu -->
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-lg-start text-center">
+              <li class="nav-item">
+                <a class="nav-link active" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#explore">Explore</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonial">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">FAQ</a>
+              </li>
+            </ul>
+            
+            <!-- Phone Button -->
+            <div class="d-flex justify-content-center justify-content-lg-end mt-2 mt-lg-0">
+              <button class="main-btn">1200 345 143</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+      
+      
+
+    </header>
+
+    <!--Section 1 top-banner-->
+    <section id="home">
+      <div class="container-fluid px-0 top-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-md-6">
+              <h1>Good food choices are best investments.</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem similique et consectetur non nam voluptates, repudiandae eos nemo ipsam, hic, tempore minus voluptatibus nesciunt quisquam provident eaque amet perspiciatis dolore!
+              </p>
+              <div class="mt-4">
+                <button class="main-btn">Order Now<i class="fas fa-shopping-basket ps-3"></i></i></button>
+                <button class="white-btn ms-lg-4 mt-lg-0 mt-4">Order Now<i class="fas fa-angle-right ps-3"></i></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Section 2 counter-->
+    <section id="counter">
+      <section class="counter-section">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h2><span id="counter1">0</span></h2>
+              <p>SAVINGS</p>
+            </div>
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h2><span id="counter2">0</span></h2>
+              <p>PHOTOS</p>
+            </div>
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h2><span id="counter3">0</span></h2>
+              <p>ROCKETS</p>
+            </div>
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h2><span id="counter4">0</span></h2>
+              <p>GLOBS</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    
+    <!--Section 3 about-->
+    <section id="about">
+  <div class="about-section wrapper overflow-hidden"> <!-- Added overflow-hidden -->
+    <div class="container"> <!-- Fixed typo from 'conatiner' -->
+      <div class="row align-items-center gx-0"> <!-- Added gx-0 to remove gutters -->
+        <div class="col-lg-7 col-md-12 mb-lg-0 mb-5"> <!-- Fixed class spacing -->
+          <div class="card border-0">
+            <img src="images/img/img-1.png" class="img-fluid w-100" alt="Food preparation"> <!-- Added img-fluid and w-100 -->
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-12 text-sec px-3 px-lg-5"> <!-- Added padding -->
+          <h2>We pride ourselves on making real food from the best ingredients.</h2> <!-- Fixed typo -->
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, enim a. Harum cum deleniti, aperiam quae assumenda culpa minima blanditiis reiciendis, fugit nihil vero voluptates cupiditate, voluptas corrupti aut adipisci.</p>
+          <button class="main-btn mt-4">Learn More</button>
+        </div>
+      </div>
+    </div>
+    <div class="container food-types mt-5"> <!-- Added margin-top -->
+      <div class="row align-items-center gx-0"> <!-- Added gx-0 -->
+        <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5 px-3 px-lg-5"> <!-- Added padding -->
+          <h2>We make everything by hand with the best possible ingredients</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus blanditiis nihil culpa accusamus consequuntur cum, provident, sequi voluptatum eaque reprehenderit sapiente consequatur perferendis architecto ea magni eum enim quia fugit!</p>
+          <ul class="list-unstyled py-3">
+            <li><i class="fas fa-check me-2"></i>Lorem ipsum dolor sit amet.</li> <!-- Added icon -->
+            <li><i class="fas fa-check me-2"></i>Lorem ipsum dolor sit amet.</li>
+            <li><i class="fas fa-check me-2"></i>Lorem ipsum dolor sit amet.</li>
+          </ul>
+          <button class="main-btn mt-4">Learn More</button>          
+        </div>
+        <div class="col-lg-7 col-md-12">
+          <div class="card border-0"> <!-- Fixed class from card-border-0 -->
+            <img src="images/img/img-2.png" class="img-fluid w-100" alt="Fresh ingredients"> <!-- Added img-fluid and w-100 -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <!--Section 3 story-->
+    <section id="story">
+      <div class="story-section">
+        <div class="row no-gutters">
+          <div class="col-sm-12">
+            <div class="text-content">
+              <h2 id="story">When a man's stomach is full it makes no difference whether he rich or poor</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae impedit quisquam, atque libero quis numquam iusto. Impedit unde aliquam, eaque iure odit nam veniam at delectus optio sed provident accusantium.</p>
+              <button class="main-btn mt-3">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Section 3 story alternate
+    <section id="story" class="py-5 overflow-hidden">
+      <div class="story-section">
+        <div class="container px-0 px-md-3">
+          <div class="row justify-content-center mx-0">
+            <div class="col-12 col-lg-10 px-0 px-md-3">
+              <div class="text-content text-center p-3 p-lg-4 mx-0 mx-md-3" 
+                   style="background-color: rgba(255,255,255,0.9); border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                <h2 class="mb-3 mb-lg-4 px-2" style="color: #ab2c48;">When a man's stomach is full it makes no difference whether he's rich or poor</h2>
+                <p class="mb-3 mb-lg-4 px-2 px-lg-3 lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae impedit quisquam, atque libero quis numquam iusto.</p>
+                
+                <ul class="list-unstyled text-start mb-3 mb-lg-4 ps-4 ps-lg-5 mx-auto" style="max-width: 600px;">
+                  <li class="mb-2"><i class="fas fa-check me-2" style="color: #ab2c48;"></i>Fresh ingredients sourced daily</li>
+                  <li class="mb-2"><i class="fas fa-check me-2" style="color: #ab2c48;"></i>Traditional cooking methods</li>
+                  <li class="mb-2"><i class="fas fa-check me-2" style="color: #ab2c48;"></i>Family recipes passed through generations</li>
+                </ul>
+                
+                <button class="main-btn mt-2 mt-lg-3 px-4 py-2" style="background-color: #ab2c48; border-color: #ab2c48;">
+                  Read More <i class="fas fa-book-open ms-2"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>-->
+    
+    <!--Section 4 explore food-->
+    <section id="explore">
+      <div class="explore-food wrapper">
+        <div class="container testimonial-section">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="text-content text-center">
+                <h2>Explore Our Foods</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore similique quod aut hic. Vero autem temporibus minus voluptatibus quia fuga maiores veritatis neque dicta. Autem velit asperiores nobis magnam possimus?</p>
+              </div>  
+            </div>
+          </div>
+        <div class="row pt-5">
+          <div class="col-lg-4 col md-6 mb-lg-0 mb-5">
+            <div class="card">
+              <img src="images/img/img-3.jpg" alt="img-fluid">
+              <div class="pt-3">
+                <h4>Rainbow Vegetable sandwich</h4>
+                <p>Time:15-20 Minutes | Serves:1</p>
+                <span>$10.50 <del>$11.70</del></span>
+                <button class="mt-4 main-btn">Order Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col md-6 mb-lg-0 mb-5">
+            <div class="card">
+              <img src="images/img/img-4.jpg" alt="img-fluid">
+              <div class="pt-3">
+                <h4>Rainbow Vegetable sandwich</h4>
+                <p>Time:15-20 Minutes | Serves:1</p>
+                <span>$10.50 <del>$11.70</del></span>
+                <button class="mt-4 main-btn">Order Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col md-6 mb-lg-0 mb-5">
+            <div class="card">
+              <img src="images/img/img-5.jpg" alt="img-fluid">
+              <div class="pt-3">
+                <h4>Rainbow Vegetable sandwich</h4>
+                <p>Time:15-20 Minutes | Serves:1</p>
+                <span>$10.50 <del>$11.70</del></span>
+                <button class="mt-4 main-btn">Order Now</button>
+              </div>
+            </div>
+          </div>    
+          </div>  
+        </div>
+      </div>
+    </section>
+
+    <!--Section 5 testimonials-->
+    <section id="testimonial" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h2 class="display-5 fw-bold">Testimonials</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+              <!-- Indicators -->
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
+              </div>
+              
+              <!-- Slides -->
+              <div class="carousel-inner bg-white p-4 rounded shadow">
+                <!-- Testimonial 1 -->
+                <div class="carousel-item active text-center p-4">
+                  <img src="images/review/review-1.jpg" class="rounded-circle mb-4" width="100" alt="Johnathan Doe">
+                  <div class="testimonial-content">
+                    <p class="lead mb-4">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe vero magnam aperiam doloribus, dicta quas ullam mollitia dolorum quae rem natus officiis at ab nisi totam laboriosam et enim! Hic?"</p>
+                    <h4 class="mb-1">Johnathan Doe</h4>
+                    <p class="text-muted">UX Designer</p>
+                  </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="carousel-item text-center p-4">
+                  <img src="images/review/review-2.jpg" class="rounded-circle mb-4" width="100" alt="May Doe">
+                  <div class="testimonial-content">
+                    <p class="lead mb-4">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe vero magnam aperiam doloribus, dicta quas ullam mollitia dolorum quae rem natus officiis at ab nisi totam laboriosam et enim! Hic?"</p>
+                    <h4 class="mb-1">May Doe</h4>
+                    <p class="text-muted">Frontend Developer</p>
+                  </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="carousel-item text-center p-4">
+                  <img src="images/review/review-1.jpg" class="rounded-circle mb-4" width="100" alt="Another Person">
+                  <div class="testimonial-content">
+                    <p class="lead mb-4">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe vero magnam aperiam doloribus, dicta quas ullam mollitia dolorum quae rem natus officiis at ab nisi totam laboriosam et enim! Hic?"</p>
+                    <h4 class="mb-1">Sarah Smith</h4>
+                    <p class="text-muted">UI Designer</p>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Controls -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Section 6 faq-->
+    <section id="faq">
+      <div class="faq wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="text-center pb-4">
+                <h2>Frequently Asked Questions</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-sm-6 mb-4">
+              <h4><span>~</span>Is Foodies Brand really baked fresh each day?</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus numquam architecto velit ea inventore laboriosam ipsum doloribus. Alias libero illo assumenda praesentium unde accusamus hic voluptates nihil. Officia, maxime ad?</p>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <h4><span>~</span>Is Foodies Brand really baked fresh each day?</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus numquam architecto velit ea inventore laboriosam ipsum doloribus. Alias libero illo assumenda praesentium unde accusamus hic voluptates nihil. Officia, maxime ad?</p>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <h4><span>~</span>Is Foodies Brand really baked fresh each day?</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus numquam architecto velit ea inventore laboriosam ipsum doloribus. Alias libero illo assumenda praesentium unde accusamus hic voluptates nihil. Officia, maxime ad?</p>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <h4><span>~</span>Is Foodies Brand really baked fresh each day?</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus numquam architecto velit ea inventore laboriosam ipsum doloribus. Alias libero illo assumenda praesentium unde accusamus hic voluptates nihil. Officia, maxime ad?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--Section 7 food book-->
+    <section class="book-food py-5">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <div class="col-lg-8 col-md-12 mb-4 mb-lg-0">
+            <h2 class="text-white display-5 fw-bold mb-3">Baked fresh daily by bakers with passion</h2>
+            <p class="text-white lead mb-0">Discover our artisan breads and pastries made with traditional recipes.</p>
+          </div>
+          <div class="col-lg-4 col-md-12 text-lg-end text-md-start">
+            <button class="main-btn btn-lg px-4 py-2">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Section 8 newsletter-->
+    <section id="newsletter" class="py-5">
+      <div class="container py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-10 text-center">
+            <div class="section-heading mb-5">
+              <h2 class="display-5 fw-bold mb-3">Hurry Up! Subscribe to our newsletter</h2>
+              <p class="lead">Get 25% Off your first order and stay updated with our latest offers</p>
+            </div>
+            
+            <form class="newsletter-form">
+              <div class="row g-3 align-items-center justify-content-center">
+                <div class="col-md-8 col-12">
+                  <div class="input-group">
+                    <input 
+                      type="email" 
+                      name="email" 
+                      class="form-control form-control-lg" 
+                      placeholder="Enter your email address" 
+                      required
+                    >
+                  </div>
+                </div>
+                <div class="col-md-4 col-12 d-grid">
+                  <button class="main-btn btn-lg px-4" type="submit">
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+            </form>
+            
+            <p class="small text-muted mt-3">We respect your privacy. Unsubscribe at any time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Section 9 Footer-->
+    <footer id="footer">
+      <div class="footer py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <a href="#" class="footer-link">Registration</a>
+              <a href="#" class="footer-link">Form</a>
+              <a href="#" class="footer-link">Affiliate</a>
+              <a href="#" class="footer-link">FAQ</a>
+              <div class="footer-social pt-4 text-center">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="footer-copy">
+                <div class="copy-right text-center pt-5">
+                  <p class="text-light">© 2021. Foodies. All rights reserved.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--js libraries-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <!--Own js-->
+    <script src="js/main.js"></script>
+</body>
+</html>
